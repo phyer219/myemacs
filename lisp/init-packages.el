@@ -46,6 +46,8 @@
 		      cnfonts
 		      ;; org-mode 的图标
 		      org-bullets
+		      ;; markdown-mode
+		      markdown-mode
 		      ) "Default packages." )
 
 (setq package-selected-packages my/packages)
