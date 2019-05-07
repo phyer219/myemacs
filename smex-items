@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ help
+ run-julia
  run-python
  package-list-packages
  prettify-symbols-mode
  auto-fill-mode
  flyspell-mode
- ispell-minor-mode
- ispell-buffer
 )
 
 ;; ----- smex-data -----
@@ -34,4 +34,6 @@
  (auto-fill-mode . 6)
  (prettify-symbols-mode . 5)
  (run-python . 1)
+ (run-julia . 1)
+ (help . 2)
 )

@@ -50,6 +50,8 @@
 		      markdown-mode
 		      ;; major mode for julia
 		      julia-mode
+		      ;; julia repl
+		      julia-repl
 		      ) "Default packages." )
 
 (setq package-selected-packages my/packages)
@@ -154,7 +156,10 @@
 (add-to-list 'load-path "path-to-julia-mode")
 (require 'julia-mode)
 ;;------------------------------------------------------------------------------
-
+;; julia-repl 的配置
+(add-to-list 'load-path "path-to-julia-repl")
+(require 'julia-repl)
+(add-hook 'julia-mode-hook 'julia-repl-mode) ;; always use minor mode
 ;;------------------------------------------------------------------------------
 (provide 'init-packages)
 ;;; init-packages.el ends here
