@@ -48,6 +48,8 @@
 		      org-bullets
 		      ;; markdown-mode
 		      markdown-mode
+		      ;; major mode for julia
+		      julia-mode
 		      ) "Default packages." )
 
 (setq package-selected-packages my/packages)
@@ -147,6 +149,10 @@
 ;; 参考自 org-bullets 的 github
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+;;------------------------------------------------------------------------------
+;; julia mode 的配置
+(add-to-list 'load-path "path-to-julia-mode")
+(require 'julia-mode)
 ;;------------------------------------------------------------------------------
 
 ;;------------------------------------------------------------------------------
