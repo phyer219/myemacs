@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ run-python
  package-list-packages
  prettify-symbols-mode
  auto-fill-mode
  flyspell-mode
  ispell-minor-mode
  ispell-buffer
- LaTeX-mode
 )
 
 ;; ----- smex-data -----
@@ -33,4 +33,5 @@
  (ispell-buffer . 4)
  (auto-fill-mode . 6)
  (prettify-symbols-mode . 5)
+ (run-python . 1)
 )
