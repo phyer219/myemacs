@@ -165,6 +165,7 @@
 ;;------------------------------------------------------------------------------
 ;; highlight-parentheses 开启
 (require 'highlight-parentheses)
+(global-highlight-parentheses-mode 1)
 ;;------------------------------------------------------------------------------
 (provide 'init-packages)
 ;;; init-packages.el ends here

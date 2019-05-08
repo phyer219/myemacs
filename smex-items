@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ highlight-parentheses-mode
  flycheck-mode
  run-python
  run-julia
  help
  package-list-packages
  prettify-symbols-mode
- auto-fill-mode
 )
 
 ;; ----- smex-data -----
@@ -36,4 +36,5 @@
  (run-python . 8)
  (run-julia . 2)
  (help . 2)
+ (highlight-parentheses-mode . 2)
 )
