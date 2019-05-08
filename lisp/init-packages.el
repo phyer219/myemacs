@@ -52,6 +52,8 @@
 		      julia-mode
 		      ;; julia repl
 		      julia-repl
+		      ;; highlight-parenthese
+		      highlight-parentheses
 		      ) "Default packages." )
 
 (setq package-selected-packages my/packages)
@@ -107,8 +109,8 @@
 ;; 更多打开选项 M-o
 (counsel-mode 1)
 ;;------------------------------------------------------------------------------
-;; 打开 flychek-mode
-(global-flycheck-mode 1)
+;; 打开 flychek-mode 关了, 感觉不好用
+;;(global-flycheck-mode 1)
 ;;------------------------------------------------------------------------------
 ;; neotree 配置
 (require 'neotree)
@@ -160,6 +162,9 @@
 (add-to-list 'load-path "path-to-julia-repl")
 (require 'julia-repl)
 (add-hook 'julia-mode-hook 'julia-repl-mode) ;; always use minor mode
+;;------------------------------------------------------------------------------
+;; highlight-parentheses 开启
+(require 'highlight-parentheses)
 ;;------------------------------------------------------------------------------
 (provide 'init-packages)
 ;;; init-packages.el ends here
