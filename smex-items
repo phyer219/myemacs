@@ -1,20 +1,20 @@
 
 ;; ----- smex-history -----
 (
- highlight-parentheses-mode
- flycheck-mode
  run-python
- run-julia
- help
- package-list-packages
- prettify-symbols-mode
+ flycheck-mode
+ eshell
+ org-mode
+ LaTeX-mode
+ compile
+ highlight-parentheses-mode
 )
 
 ;; ----- smex-data -----
 (
  (smartparens-mode . 2)
  (ivy-mode . 1)
- (flycheck-mode . 2)
+ (flycheck-mode . 3)
  (ranger-mode . 2)
  (package-list-packages . 4)
  (all-the-icons-install-fonts . 1)
@@ -23,8 +23,8 @@
  (cdlatex-mode . 6)
  (cd . 1)
  (org-indent-mode . 1)
- (LaTeX-mode . 5)
- (org-mode . 3)
+ (LaTeX-mode . 6)
+ (org-mode . 4)
  (TeX-mode . 2)
  (ido-mode . 2)
  (describe-input-method . 1)
@@ -33,8 +33,10 @@
  (ispell-buffer . 4)
  (auto-fill-mode . 6)
  (prettify-symbols-mode . 5)
- (run-python . 8)
+ (run-python . 9)
  (run-julia . 2)
  (help . 2)
  (highlight-parentheses-mode . 2)
+ (compile . 1)
+ (eshell . 3)
 )

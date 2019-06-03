@@ -1,0 +1,128 @@
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+g++ -o pi pi.c
+./pi
+./pi
+g++ -o pi pi.c
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+g++ -o pi pi.c
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+g++ -o pi pi.c
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+g++ -o pi pi.c
+g++ -o pi pi.c
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o pi pi.c
+./pi
+g++ -o sum sum.c
+g++ -o sum sum.c
+g++ -o sum sum.c
+g++ -o sum sum.c
+./sum
+g++ -o sum sum.c
+./sum
+g++ -o sum sum.c
+g++ -o sum sum.c
+./sum
+g++ -o sum sum.c
+./sum
+g++ -o sum sum.c
+./sum
+g++ -o sum sum.c
+./sum
+g++ -o sum sum.c
+./sum
+g++ -o sum sum.c
+./sum
+g++ -o sum sum.c
+./sum

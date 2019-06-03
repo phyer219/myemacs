@@ -25,4 +25,9 @@
 ;;org-mode 语法高亮
 (setq org-src-fontify-natively t)
 ;;------------------------------------------------------------------------------
+;;能够在 org-mode 中运行 python
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((python . t)))
+;;------------------------------------------------------------------------------
 (provide 'init-better-defults)
