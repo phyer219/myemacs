@@ -12,5 +12,5 @@
 (require 'init-better-defults)
 (require 'init-ui)
 (require 'init-packages)
- 
+(require 'init-fortran)
 
