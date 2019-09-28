@@ -5,3 +5,4 @@ elpa-26.1
 elpy/
 session.*
 eshell/history
+smex-items
