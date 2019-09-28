@@ -54,6 +54,8 @@
 		      julia-repl
 		      ;; highlight-parenthese
 		      highlight-parentheses
+		      ;; python 插件
+		      elpy
 		      ) "Default packages." )
 
 (setq package-selected-packages my/packages)
@@ -167,5 +169,8 @@
 (require 'highlight-parentheses)
 (global-highlight-parentheses-mode 1)
 ;;------------------------------------------------------------------------------
+(elpy-enable)
+;;------------------------------------------------------------------------------
+
 (provide 'init-packages)
 ;;; init-packages.el ends here
