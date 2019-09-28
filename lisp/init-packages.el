@@ -56,6 +56,8 @@
 		      highlight-parentheses
 		      ;; python 插件
 		      elpy
+		      ;; ein 插件. jupyter notebook 支持
+		      ein
 		      ) "Default packages." )
 
 (setq package-selected-packages my/packages)
