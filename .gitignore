@@ -6,3 +6,4 @@ elpy/
 session.*
 eshell/history
 smex-items
+request/
