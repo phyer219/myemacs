@@ -12,7 +12,8 @@
 
 ;; 显示行号
 (global-linum-mode 1)
-
+;; 显示列号
+(column-number-mode 1)
 ;; 不显示欢迎界面
 (setq inhibit-splash-screen 1)
 ;; 开启 org-mode 的缩进

@@ -14,9 +14,10 @@
 (add-hook 'org-mode-hook
 	  (lambda () (ispell-minor-mode 1)))
 ;;------------------------------------------------------------------------------
-;; 自动换行
+;; 自动换行 (80字符)
 (add-hook 'hack-local-variables-hook
 	  (lambda () (auto-fill-mode 1)))
+(setq-default fill-column 80)
 ;;------------------------------------------------------------------------------
 ;;org-mode中latex高亮
 (setq org-highlight-latex-and-related '(latex))
