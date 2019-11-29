@@ -13,4 +13,5 @@
 (require 'init-ui)
 (require 'init-packages)
 (require 'init-fortran)
-
+(require 'init-latex)
+(require 'latex-pretty-symbols)

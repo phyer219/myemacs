@@ -133,7 +133,7 @@
 ;; all-the-icons 图标主题
 ;; 严重拖慢开启速度, 所以关了.
 ;;(require 'spaceline-all-the-icons)
-;(use-package spaceline-all-the-icons)
+;;(use-package spaceline-all-the-icons)
 ;;(use-package spaceline-all-the-icons 
 ;;  :after spaceline
 ;;  :config (spaceline-all-the-icons-theme))
