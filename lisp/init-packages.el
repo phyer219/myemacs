@@ -171,7 +171,7 @@
 (require 'highlight-parentheses)
 (global-highlight-parentheses-mode 1)
 ;;------------------------------------------------------------------------------
-(elpy-enable)
+;;(elpy-enable)
 ;;------------------------------------------------------------------------------
 
 (provide 'init-packages)
