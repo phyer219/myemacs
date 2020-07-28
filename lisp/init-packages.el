@@ -58,6 +58,8 @@
 		      elpy
 		      ;; ein 插件. jupyter notebook 支持
 		      ein
+		      ;; wakatime 插件
+		      wakatime-mode
 		      ) "Default packages." )
 
 (setq package-selected-packages my/packages)
@@ -173,6 +175,12 @@
 ;;------------------------------------------------------------------------------
 ;;(elpy-enable)
 ;;------------------------------------------------------------------------------
+;; 打开 wakatime
+;; 貌似还得 pip install wakatime 才行
+(global-wakatime-mode 1)
+;;------------------------------------------------------------------------------
 
 (provide 'init-packages)
 ;;; init-packages.el ends here
+
+
