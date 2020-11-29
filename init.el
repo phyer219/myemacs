@@ -5,7 +5,7 @@
 ;; You may delete these explanatory comments.
 
 
-(package-initialize)
+;;(package-initialize)
 
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
