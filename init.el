@@ -9,8 +9,8 @@
 
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
-
-(setq python-shell-interpreter "/opt/anaconda/bin/python3.7")
+;; 选择用哪一个 python 解释器
+;; (setq python-shell-interpreter "/opt/anaconda/bin/python3.7")
 
 (require 'init-better-defults)
 (require 'init-ui)
