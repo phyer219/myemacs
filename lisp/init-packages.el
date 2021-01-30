@@ -75,8 +75,8 @@
 (defun my/packages-installed-p()
   "如果想要安装包列表都已经安装, 返回真, 否则返回假. "
   (cl-loop for pkg in my/packages
-	when (not (package-installed-p pkg)) do (return nil)
-	finally (return t)))
+	   when (not (package-installed-p pkg)) do (cl-return nil)
+	   finally (cl-return t)))
 
 ;; 当列表中的包没有被全部安装时, 就输出提示 Refreshing ...
  (unless (my/packages-installed-p)
