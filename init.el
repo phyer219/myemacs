@@ -13,11 +13,12 @@
 ;; (setq python-shell-interpreter "/opt/anaconda/bin/python3.7")
 
 (require 'init-elpa)
+(require 'init-ui)
 (require 'init-company)
 (require 'init-editing-utils)
 
 (require 'init-better-defults)
-(require 'init-ui)
+
 
 ;;(require 'init-fortran)
 (require 'init-latex)
@@ -25,7 +26,7 @@
 (require 'latex-pretty-symbols)
 (require 'init-waka-time-mode)
 (require 'init-python)
-;;(require 'init-packages)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
