@@ -21,7 +21,8 @@
 
 ;;(require 'init-fortran)
 (require 'init-latex)
-;;(require 'latex-pretty-symbols)
+(require 'init-org-mode)
+(require 'latex-pretty-symbols)
 ;;(require 'init-packages)
 
 

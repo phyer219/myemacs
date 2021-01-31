@@ -19,8 +19,6 @@
 		      ;; 文件管理器
 		      neotree
 		      spaceline-all-the-icons
-		      ;; 字体
-		      cnfonts
 		      ;; org-mode 的图标
 		      org-bullets
 		      ;; markdown-mode
@@ -87,13 +85,6 @@
 ;; 参考自 github 和 https://orgmode.org/manual/CDLaTeX-mode.html
 (add-hook 'LaTeX-mode-hook 'turn-on-cdlatex)
 (add-hook 'org-mode-hook 'turn-on-org-cdlatex)
-;;------------------------------------------------------------------------------
-;; 字体设置
-(require 'cnfonts)
-;; 让 cnfonts 随着 Emacs 自动生效。
- (cnfonts-enable)
-;; 让 spacemacs mode-line 中的 Unicode 图标正确显示。
-(cnfonts-set-spacemacs-fallback-fonts)
 ;;------------------------------------------------------------------------------
 ;; org-bullets 的配置
 ;; 参考自 org-bullets 的 github
