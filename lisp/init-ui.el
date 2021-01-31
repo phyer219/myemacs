@@ -33,6 +33,12 @@
 ;; 更多配置在 ivy 的 github: https://github.com/abo-abo/swiper/tree/302d23fff1bfd68b6d3de497a1af7a27baa771cb
 (ivy-mode 1)
 ;;------------------------------------------------------------------------------
+;; highlight-parenthese
+(require-package 'highlight-parentheses)
+;; highlight-parentheses 开启
+(require 'highlight-parentheses)
+(global-highlight-parentheses-mode 1)
+;;------------------------------------------------------------------------------
 
 
 

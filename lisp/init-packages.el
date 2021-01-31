@@ -10,10 +10,6 @@
 ;; 添加一个 global 变量, 它是一个列表, 其中包含了需要安装的包.
 ;; https://stackoverflow.com/questions/3855862/setq-and-defvar-in-lisp
 (defvar my/packages '(
-		      ;; highlight-parenthese
-		      highlight-parentheses
-		      ;; python 插件
-		      elpy
 		      ) "将用户想要安装的包放入此列表." )
 
 ;; package-selected-packages 是 package.el 中的一个变量, This variable was
@@ -41,12 +37,7 @@
 
 -
 ;;------------------------------------------------------------------------------
-;; highlight-parentheses 开启
-(require 'highlight-parentheses)
-(global-highlight-parentheses-mode 1)
-;;------------------------------------------------------------------------------
-;;(elpy-enable)
-;;------------------------------------------------------------------------------
+-
 
 
 (provide 'init-packages)
