@@ -14,8 +14,6 @@
 ;; 添加一个 global 变量, 它是一个列表, 其中包含了需要安装的包.
 ;; https://stackoverflow.com/questions/3855862/setq-and-defvar-in-lisp
 (defvar my/packages '(
-		      ;; --- Auto-completion ---
-		      company
 		      ;; --- Some themes ---
 		      monokai-theme
 		      atom-one-dark-theme
@@ -88,10 +86,7 @@
 
 
 
-;;------------------------------------------------------------------------------
-;; 开启全局自动补全
-(global-company-mode)
-;;------------------------------------------------------------------------------
+
 ;; 加载主题
 (load-theme 'atom-one-dark t)
 ;;------------------------------------------------------------------------------

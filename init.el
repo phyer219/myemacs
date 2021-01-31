@@ -13,6 +13,7 @@
 ;; (setq python-shell-interpreter "/opt/anaconda/bin/python3.7")
 
 (require 'init-elpa)
+(require 'init-company)
 (require 'init-editing-utils)
 
 (require 'init-better-defults)
