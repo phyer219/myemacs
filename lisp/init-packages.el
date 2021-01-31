@@ -14,9 +14,6 @@
 ;; 添加一个 global 变量, 它是一个列表, 其中包含了需要安装的包.
 ;; https://stackoverflow.com/questions/3855862/setq-and-defvar-in-lisp
 (defvar my/packages '(
-		      ;; --- Some themes ---
-		      monokai-theme
-		      atom-one-dark-theme
 		      ;; 它不算最著名的一个、但却是一个替代 Ido-mode 的好选择：Smex 可以优雅的替代普通的M-x提示符，灵感大部分来自于 Ido-mode。
 		      ;; 它也给调用M-x后输入的命令带来了同样的交互搜索能力。它简单而有效，是一个为常用操作提升效率的最好方法。
 		      smex
@@ -87,8 +84,7 @@
 
 
 
-;; 加载主题
-(load-theme 'atom-one-dark t)
+
 ;;------------------------------------------------------------------------------
 ;; smex 设置. 来自 smex 在 github 上的推荐设置
 (require 'smex) ; Not needed if you use package.el

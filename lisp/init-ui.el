@@ -1,3 +1,9 @@
+;; 安装并选择主题
+(require-package 'monokai-theme)
+(require-package 'atom-one-dark-theme)
+  
+(load-theme 'atom-one-dark t)
+
 
 ;; 启动时全屏
 ;; (setq initial-frame-alist (quote ((fullscreen . maximized))))
