@@ -24,6 +24,7 @@
 (require 'init-org-mode)
 (require 'latex-pretty-symbols)
 (require 'init-waka-time-mode)
+(require 'init-python)
 ;;(require 'init-packages)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
