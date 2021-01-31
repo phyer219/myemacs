@@ -6,8 +6,8 @@
 
 
 ;;(package-initialize)
-
-(add-to-list 'load-path "~/.emacs.d/lisp/")
+;; (expand "path" "default") 的结果是 default/path.
+(add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 
 ;; 选择用哪一个 python 解释器
 ;; (setq python-shell-interpreter "/opt/anaconda/bin/python3.7")
