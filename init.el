@@ -18,20 +18,10 @@
 
 (require 'init-better-defults)
 (require 'init-ui)
-(require 'init-packages)
-(require 'init-fortran)
+
+;;(require 'init-fortran)
 (require 'init-latex)
-(require 'latex-pretty-symbols)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   '(company monokai-theme atom-one-dark-theme smex smartparens ivy swiper counsel flycheck neotree all-the-icons spaceline-all-the-icons use-package auctex cdlatex cnfonts org-bullets markdown-mode julia-mode julia-repl highlight-parentheses elpy ein wakatime-mode)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+;;(require 'latex-pretty-symbols)
+;;(require 'init-packages)
+
+
