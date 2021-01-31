@@ -39,7 +39,19 @@
 (require 'highlight-parentheses)
 (global-highlight-parentheses-mode 1)
 ;;------------------------------------------------------------------------------
+;; 标尺竖线.
+;; https://emacs.stackexchange.com/questions/147/how-can-i-get-a-ruler-at-column-80
 
+;; 方案1: 参考 purcell init-editing-utils.el
+;;(setq-default indicate-buffer-boundaries 'left)
+;;(setq-default display-fill-column-indicator-character ?\u254e)
+(add-hook 'prog-mode-hook 'display-fill-column-indicator-mode)
+
+;; 方案2: 
+;; (require-package 'fill-column-indicator)
+;; (require 'fill-column-indicator)
+;;(fci-mode)
+;;------------------------------------------------------------------------------
 
 
 ;; 启动时全屏
