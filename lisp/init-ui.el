@@ -35,6 +35,13 @@
 (require 'highlight-parentheses)
 (global-highlight-parentheses-mode 1)
 
+;; 将分页符 page break (ASCII ^L) 显示成横线
+;; emacs 中 C-q C-l 即可插入分页符
+;; https://www.emacswiki.org/emacs/PageBreaks
+(require-package 'page-break-lines)
+(require 'page-break-lines)
+(global-page-break-lines-mode)
+
 ;; 标尺竖线.
 ;; https://emacs.stackexchange.com/questions/147/how-can-i-get-a-ruler-at-column-80
 
