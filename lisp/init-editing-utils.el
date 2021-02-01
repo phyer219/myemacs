@@ -1,3 +1,10 @@
+
+;; 将分页符 page break (ASCII ^L) 显示成横线
+;; emacs 中 C-q C-l 即可插入分页符
+;; https://www.emacswiki.org/emacs/PageBreaks
+(require-package 'page-break-lines)
+(require 'page-break-lines)
+(global-page-break-lines-mode)
 ;;------------------------------------------------------------------------------
 ;; 快速切换窗口
 (require-package 'switch-window)
