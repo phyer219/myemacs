@@ -1,4 +1,9 @@
 ;;------------------------------------------------------------------------------
+;; 选区扩展工具
+(require-package 'expand-region)
+(require 'expand-region)
+(global-set-key (kbd "C-=") 'er/expand-region)
+;;------------------------------------------------------------------------------
 ;; 统计快捷键使用频率
 ;; And use keyfreq-show to see how many times you used a command.
 (require-package 'keyfreq)
