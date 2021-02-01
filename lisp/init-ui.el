@@ -1,3 +1,6 @@
+
+;; 显示 trailing whitespace
+(setq-default show-trailing-whitespace t)
 ;; 安装并选择主题
 (require-package 'monokai-theme)
 (require-package 'atom-one-dark-theme)
