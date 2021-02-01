@@ -53,7 +53,7 @@
 ;;(fci-mode)
 ;;------------------------------------------------------------------------------
 ;;设置宽和高, 启动时的宽和高
-(set-frame-width (selected-frame) 82)
+(set-frame-width (selected-frame) 85)
 ;;(set-frame-height (selected-frame) 33)
 
 ;; 启动时全屏
