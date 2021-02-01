@@ -1,4 +1,11 @@
 ;;------------------------------------------------------------------------------
+;; 统计快捷键使用频率
+;; And use keyfreq-show to see how many times you used a command.
+(require-package 'keyfreq)
+(require 'keyfreq)
+(keyfreq-mode 1)
+(keyfreq-autosave-mode 1)
+;;------------------------------------------------------------------------------
 ;; 命令提示
 (require-package 'which-key)
 (which-key-mode)
