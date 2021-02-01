@@ -30,7 +30,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(wakatime-mode which-key use-package spaceline-all-the-icons smex smartparens org-bullets neotree monokai-theme markdown-mode julia-repl julia-mode highlight-parentheses flycheck elpy ein counsel cnfonts cdlatex auctex atom-one-dark-theme)))
+   '(wakatime-mode which-key use-package spaceline-all-the-icons smex smartparens org-bullets neotree monokai-theme markdown-mode julia-repl julia-mode highlight-parentheses flycheck elpy ein counsel cnfonts cdlatex auctex atom-one-dark-theme))
+ '(wakatime-cli-path "/home/zqw/.local/bin/wakatime")
+ '(wakatime-python-bin nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
