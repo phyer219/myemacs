@@ -1,3 +1,15 @@
+;; 括号自动配对的插件
+(require-package 'smartparens)
+;; smartparen设置. 来自 smex 在 github 上的推荐设置
+(require 'smartparens-config)
+;; Always start smartparens mode in js-mode.
+;;(add-hook 'js-mode-hook #'smartparens-mode)
+
+;; 我还是让它永远开启吧!
+;; 参考自: https://www.reddit.com/r/emacs/comments/3e7uys/how_do_i_enable_smartparens_mode_on_startup/
+;; 中文帮助: https://github.com/lujun9972/emacs-document/blob/master/emacs-common/Smartparens%E7%94%A8%E6%B3%95%E8%AF%A6%E8%A7%A3.org
+(smartparens-global-mode t)
+
 ;; 类似 ace-jump-mode
 (require-package 'avy)
 (global-set-key (kbd "C-:") 'avy-goto-char)
@@ -12,8 +24,8 @@
 (require-package 'page-break-lines)
 (require 'page-break-lines)
 (global-page-break-lines-mode)
-;;------------------------------------------------------------------------------
-;; 快速切换窗口
+
+;; 快速切换窗口的插件
 (require-package 'switch-window)
 (require 'switch-window)
 (global-set-key (kbd "C-x o") 'switch-window)
@@ -31,7 +43,7 @@
 (global-set-key (kbd "C-x 4 C-o") 'switch-window-then-display-buffer)
 
 (global-set-key (kbd "C-x 4 0") 'switch-window-then-kill-buffer)
-;;------------------------------------------------------------------------------
+
 ;; 选区扩展工具
 (require-package 'expand-region)
 (require 'expand-region)
@@ -53,16 +65,11 @@
 ;; (diminish 'which-key-mode))
 ;;------------------------------------------------------------------------------
 ;; 搜索的插件
-(require-package 'swiper)
-;; swiper 需要先启动 ivy-mode. 上面已经开启.
-;; 配置参考自: https://www.youtube.com/watch?v=AaUlOH4GTCs
-(global-set-key "\C-s" 'swiper)
+;; (require-package 'swiper)
+;; ;; swiper 需要先启动 ivy-mode. 上面已经开启.
+;; ;; 配置参考自: https://www.youtube.com/watch?v=AaUlOH4GTCs
+;; (global-set-key "\C-s" 'swiper)
 ;;------------------------------------------------------------------------------
-;; 打开文件的更多选项
-(require-package 'counsel)
-;; 打开 counsel-mode
-;; 更多打开选项 M-o
-(counsel-mode 1)
 ;;-----------------------------------------------------------------------------
 ;; 语法检查
 (require-package 'flycheck)

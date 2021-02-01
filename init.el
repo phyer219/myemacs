@@ -11,10 +11,11 @@
 ;; 载入的文件
 (require 'init-elpa)			; 设置软件源, 定义 require-package 函数.
 (require 'init-ui)			; ui 相关的插件和一些设置
+(require 'init-counsel)			; ivy, swiper, counsel 三合一
 (require 'init-company)			; company 自动补全的插件
 (require 'init-editing-utils)		; 编辑相关设置和插件
 (require 'init-better-defults)
-;;(require 'init-fortran)
+;;(require 'init-fortran)                 ; fortran 现在不能用了, 待修复
 (require 'init-latex)			; latex 的相关设置
 (require 'init-org-mode)		; org-mode 的相关设置
 (require 'latex-pretty-symbols)

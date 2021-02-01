@@ -1,40 +1,22 @@
-
-;; 显示 trailing whitespace
-(setq-default show-trailing-whitespace t)
-;; 安装并选择主题
-(require-package 'monokai-theme)
+;;; 将一些交换界面的设置存在此文件
+;;; 比如括号显示
+
+;; 安装并加载主题
+;; (require-package 'monokai-theme)
 (require-package 'atom-one-dark-theme)
-  
 (load-theme 'atom-one-dark t)
-;;------------------------------------------------------------------------------
-;; 括号自动配对的插件
-(require-package 'smartparens)
-;; smartparen设置. 来自 smex 在 github 上的推荐设置
-(require 'smartparens-config)
-;; Always start smartparens mode in js-mode.
-;;(add-hook 'js-mode-hook #'smartparens-mode)
-
-;; 我还是让它永远开启吧!
-;; 参考自: https://www.reddit.com/r/emacs/comments/3e7uys/how_do_i_enable_smartparens_mode_on_startup/
-;; 中文帮助: https://github.com/lujun9972/emacs-document/blob/master/emacs-common/Smartparens%E7%94%A8%E6%B3%95%E8%AF%A6%E8%A7%A3.org
-(smartparens-global-mode t)
-;;------------------------------------------------------------------------------
-;; 它也给调用M-x后输入的命令带来了同样的交互搜索能力。它简单而有效，是一个为常用操作提升效率的最好方法。
-(require-package 'smex)
-;; smex 设置. 来自 smex 在 github 上的推荐设置
-(require 'smex) ; Not needed if you use package.el
-(smex-initialize) ; Can be omitted. This might cause a (minimal) delay
-					; when Smex is auto-initialized on its first run.
-(global-set-key (kbd "M-x") 'smex)
-(global-set-key (kbd "M-X") 'smex-major-mode-commands)
-;; This is your old M-x.
-(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
-;;------------------------------------------------------------------------------
+
+;; 显示 trailing whitespace 也就是行尾无意义的空格.
+;; 参考:
+;; https://emacs.stackexchange.com/questions/21863/how-can-i-visualize-trailing-whitespace-like-this
+;; purcell 的配置在 int-whitespace.el 中.
+(setq-default show-trailing-whitespace t)
+
 ;; 打开文件时的提示
-(require-package 'ivy)
+;;(require-package 'ivy)
 ;; 开启 ivy-mode
 ;; 更多配置在 ivy 的 github: https://github.com/abo-abo/swiper/tree/302d23fff1bfd68b6d3de497a1af7a27baa771cb
-(ivy-mode 1)
+;;(ivy-mode 1)
 ;;------------------------------------------------------------------------------
 ;; highlight-parenthese
 (require-package 'highlight-parentheses)
@@ -82,3 +64,26 @@
 (provide 'init-ui)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+;; 它也给调用M-x后输入的命令带来了同样的交互搜索能力。它简单而有效，是一个为常用操作提升效率的最好方法。
+;; (require-package 'smex)
+;; smex 设置. 来自 smex 在 github 上的推荐设置
+;; (require 'smex) ; Not needed if you use package.el
+;; (smex-initialize) ; Can be omitted. This might cause a (minimal) delay
+;; 					; when Smex is auto-initialized on its first run.
+;; (global-set-key (kbd "M-x") 'smex)
+;; (global-set-key (kbd "M-X") 'smex-major-mode-commands)
+;; ;; This is your old M-x.
+;; (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+;;------------------------------------------------------------------------------
