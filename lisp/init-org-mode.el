@@ -5,6 +5,8 @@
 ;; 参考自 org-bullets 的 github
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+;; 开启 org-mode 的缩进
+(add-hook 'org-mode-hook 'org-indent-mode)
 
 
 
