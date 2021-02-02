@@ -1,3 +1,11 @@
+;; 命令提示
+(require-package 'which-key)
+(which-key-mode)
+;; (add-hook 'after-init-hook 'which-key-mode)
+;; (setq-default which-key-idle-delay 1.5)
+;; (with-eval-after-load 'which-key
+;; (diminish 'which-key-mode))
+
 ;;; https://oremacs.com/swiper/
 ;;; Ivy is split into three packages: ivy, swiper and counsel; by installing
 ;;; counsel, the other two are brought in as dependencies.
@@ -46,4 +54,4 @@
 (global-set-key (kbd "C-c t") 'counsel-load-theme)
 (global-set-key (kbd "C-c F") 'counsel-org-file)
 
-(provide 'init-counsel)
+(provide 'init-input-operation)

@@ -11,8 +11,8 @@
 ;; 载入的文件
 (require 'init-elpa)			; 设置软件源, 定义 require-package 函数.
 (require 'init-ui)			; ui 相关的插件和一些设置
-(require 'init-counsel)			; ivy, swiper, counsel 三合一
-(require 'init-input)			; 输入相关的插件(补全, 拼写检查...)
+(require 'init-input-operation)		; 输入命令的插件(which-key, ivy...)
+(require 'init-input-text)		; 输入文本的插件(补全, 拼写检查...)
 (require 'init-editing-utils)		; 编辑相关设置和插件
 (require 'init-better-defults)
 ;;(require 'init-fortran)                 ; fortran 现在不能用了, 待修复

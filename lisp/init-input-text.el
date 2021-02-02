@@ -32,4 +32,4 @@
 (smartparens-global-mode t)
 
 
-(provide 'init-input)
+(provide 'init-input-text)
