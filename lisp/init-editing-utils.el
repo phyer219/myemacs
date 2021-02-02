@@ -1,3 +1,5 @@
+;;; 一些光标移动, 窗口切换以及其它插件
+
 ;; 类似 ace-jump-mode
 (require-package 'avy)
 (global-set-key (kbd "C-:") 'avy-goto-char)

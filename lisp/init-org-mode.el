@@ -1,3 +1,11 @@
+
+;; 设置数学显示
+;;(add-hook 'org-mode-hook
+;;	  (lambda () (set-input-method "TeX")))
+;;(add-hook 'LaTeX-mode-hook
+;;	  (lambda () (set-input-method "TeX")))
+
+
 ;; org-mode 的图标
 (require-package 'org-bullets)
 ;;------------------------------------------------------------------------------

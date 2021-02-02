@@ -14,10 +14,10 @@
 (require 'init-input-operation)		; 输入命令的插件(which-key, ivy...)
 (require 'init-input-text)		; 输入文本的插件(补全, 拼写检查...)
 (require 'init-editing-utils)		; 编辑相关设置和插件
-(require 'init-better-defults)
+(require 'init-better-defults)		; 调整一些默认行为的访华团
 ;;(require 'init-fortran)                 ; fortran 现在不能用了, 待修复
 (require 'init-latex)			; latex 的相关设置
 (require 'init-org-mode)		; org-mode 的相关设置
-(require 'latex-pretty-symbols)
+(require 'latex-pretty-symbols)		; 将一些数学符号直接显示
 (require 'init-waka-time-mode)		; waka-time 是一个统计使用时间的插件
 (require 'init-python)			; python 的相关设置
