@@ -1,3 +1,6 @@
+;; TODO: 改用 use-package, 提升性能
+;; TODO: 规范 code
+
 ;; 将 lisp 文件夹添加到路径中.
 ;; 注意: (expand "path" "default") 的结果是 default/path.
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
