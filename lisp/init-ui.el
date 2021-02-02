@@ -16,6 +16,8 @@
 (column-number-mode 1)
 ;; 启动时不显示欢迎界面
 (setq inhibit-splash-screen 1)
+;; 设置字体大小
+(set-face-attribute 'default (selected-frame) :height 150)
 
 ;; 安装并加载主题
 ;; (require-package 'monokai-theme)
