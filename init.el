@@ -15,7 +15,7 @@
 (require 'init-input-text)		; 输入文本的插件(补全, 拼写检查...)
 (require 'init-editing-utils)		; 编辑相关设置和插件
 (require 'init-better-defults)		; 调整一些默认行为的访华团
-;;(require 'init-fortran)                 ; fortran 现在不能用了, 待修复
+(require 'init-fortran)                 ; fortran 现在不能用了, 待修复
 (require 'init-latex)			; latex 的相关设置
 (require 'init-org-mode)		; org-mode 的相关设置
 (require 'latex-pretty-symbols)		; 将一些数学符号直接显示
