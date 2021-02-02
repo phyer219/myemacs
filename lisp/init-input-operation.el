@@ -1,4 +1,6 @@
-;; 命令提示
+;; 一些快速输入命令的插件
+
+;; 命令提示插件
 (require-package 'which-key)
 (which-key-mode)
 ;; (add-hook 'after-init-hook 'which-key-mode)
@@ -15,7 +17,7 @@
 
 (setq ivy-use-virtual-buffers t)
 (setq ivy-count-format "(%d/%d) ")
-
+
 ;; Ivy-based interface to standard commands
 (global-set-key (kbd "C-s") 'swiper-isearch)
 (global-set-key (kbd "M-x") 'counsel-M-x)
@@ -30,7 +32,7 @@
 (global-set-key (kbd "C-x b") 'ivy-switch-buffer)
 (global-set-key (kbd "C-c v") 'ivy-push-view)
 (global-set-key (kbd "C-c V") 'ivy-pop-view)
-
+
 ;; ;; Ivy-based interface to shell and system tools
 (global-set-key (kbd "C-c c") 'counsel-compile)
 (global-set-key (kbd "C-c g") 'counsel-git)
@@ -43,7 +45,7 @@
 (global-set-key (kbd "C-c J") 'counsel-file-jump)
 (global-set-key (kbd "C-S-o") 'counsel-rhythmbox)
 (global-set-key (kbd "C-c w") 'counsel-wmctrl)
-
+
 ;; Ivy-resume and other commands
 ;; ivy-resume resumes the last Ivy-based completion.
 (global-set-key (kbd "C-c C-r") 'ivy-resume)

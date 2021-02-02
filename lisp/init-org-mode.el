@@ -1,14 +1,14 @@
-
+;;; org-mode 的相关设置和插件
+
 ;; 设置数学显示
 ;;(add-hook 'org-mode-hook
 ;;	  (lambda () (set-input-method "TeX")))
 ;;(add-hook 'LaTeX-mode-hook
 ;;	  (lambda () (set-input-method "TeX")))
 
-
 ;; org-mode 的图标
 (require-package 'org-bullets)
-;;------------------------------------------------------------------------------
+
 ;; org-bullets 的配置
 ;; 参考自 org-bullets 的 github
 (require 'org-bullets)
@@ -28,7 +28,4 @@
  'org-babel-load-languages
  '((python . t)))
 
-
-
-
 (provide 'init-org-mode)

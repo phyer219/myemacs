@@ -19,7 +19,6 @@
 (require 'init-latex)			; latex 的相关设置
 (require 'init-org-mode)		; org-mode 的相关设置
 (require 'latex-pretty-symbols)		; 将一些数学符号直接显示
-(require 'init-waka-time-mode)		; waka-time 是一个统计使用时间的插件
 (require 'init-python)			; python 的相关设置
 (require 'init-show-message)		; 自定义一些启动时显示的信息
 

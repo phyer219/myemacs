@@ -1,9 +1,10 @@
-;; 待整理
+;; 一些快速输入文本的插件
+
 ;; 语法检查
+;;; Code:
 (require-package 'flycheck)
-;; 打开 flychek-mode 关了, 感觉不好用
-;;(global-flycheck-mode 1)
-
+(global-flycheck-mode 1)
+
 ;; 拼写检查
 (setq-default ispell-program-name "aspell")
 (ispell-change-dictionary "american" t)
@@ -31,5 +32,4 @@
 ;; 中文帮助: https://github.com/lujun9972/emacs-document/blob/master/emacs-common/Smartparens%E7%94%A8%E6%B3%95%E8%AF%A6%E8%A7%A3.org
 (smartparens-global-mode t)
 
-
 (provide 'init-input-text)

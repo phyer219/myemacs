@@ -9,8 +9,11 @@
 
 ;; 此变量用来标记是否刷新过安装包. 默认为 't, 为没有刷新
 (setq pkg-not-refresh 't)
+
+;; 计数刷新了几次安装源, 安装了几个插件
 (setq number-of-refresh 0)
 (setq number-of-package-add 0)
+
 ;; 利用 lisp 逻辑运算得到结果就不再对后面的表达式求值的特性.
 ;; 此函数的逻辑:
 ;; 如果 (package-installed-p pkg) 为真, 就不再运行 or 语句内的其它表达式, 因为整
