@@ -28,4 +28,18 @@
  'org-babel-load-languages
  '((python . t)))
 
+;; org 手册中的推荐设置
+(global-set-key (kbd "C-c l") 'org-store-link)
+(global-set-key (kbd "C-c a") 'org-agenda)
+(global-set-key (kbd "C-c c") 'org-capture)
+;; capture templates
+(setq org-capture-templates
+      '(("t" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
+	 "* TODO %?\n %i\n %a")
+	("j" "Journal" entry (file+datetree "~/org/journal.org")
+	 "* %?\nEntered on %U\n %i\n %a")))
+; 将~/org/todo.org替换为todo.org实际路径
+(setq org-agenda-files (list org-directory))
+(setq org-default-notes-file (concat org-directory "/notes.org"))
+
 (provide 'init-org-mode)
