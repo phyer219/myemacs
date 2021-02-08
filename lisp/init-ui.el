@@ -32,10 +32,15 @@
 
 ;; 括号高亮
 ;; highlight-parenthese
-(require-package 'highlight-parentheses)
+;;(require-package 'highlight-parentheses)
 ;; highlight-parentheses 开启
-(require 'highlight-parentheses)
-(global-highlight-parentheses-mode 1)
+;;(require 'highlight-parentheses)
+;;(global-highlight-parentheses-mode 1)
+
+;; 彩虹括号
+(require-package 'rainbow-delimiters)
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+
 
 ;; 将分页符 page break (ASCII ^L) 显示成横线
 ;; emacs 中 C-q C-l 即可插入分页符
