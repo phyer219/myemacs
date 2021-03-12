@@ -44,4 +44,10 @@
 (setq org-agenda-files (list org-directory))
 (setq org-default-notes-file (concat org-directory "/notes.org"))
 
+;; 与 avy-goto (ace jump) 的快捷键冲突了, 所以关闭此快捷键.
+;; https://emacs.stackexchange.com/questions/7546/disable-org-mode-keyboard-shortcuts
+(eval-after-load 'org
+  (progn
+    (define-key org-mode-map (kbd "C-'") nil)))
+
 (provide 'init-org-mode)
