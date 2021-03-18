@@ -68,6 +68,6 @@
 ;;(fci-mode)
 
 ;; lsp 更好的ui
-(require-package 'lsp-ui)
+;; (require-package 'lsp-ui) 有点乱, 还是不要了
 
 (provide 'init-ui)
