@@ -1,6 +1,10 @@
 ;;; 将一p些交换界面的设置存在此文件
 ;;; 比如括号显示
 
+;; https://cloud.tencent.com/developer/ask/105836
+;; 默认左右分屏
+(setq split-width-threshold 1)
+
 ;; 启动时的宽和高, 启动时的宽和高
 (set-frame-width (selected-frame) 85)
 ;;(set-frame-height (selected-frame) 33)
