@@ -67,4 +67,7 @@
 ;; (require 'fill-column-indicator)
 ;;(fci-mode)
 
+;; lsp 更好的ui
+(require-package 'lsp-ui)
+
 (provide 'init-ui)
