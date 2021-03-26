@@ -24,5 +24,6 @@
 (require 'latex-pretty-symbols)		; 将一些数学符号直接显示
 (require 'init-python)			; python 的相关设置
 (require 'init-show-message)		; 自定义一些启动时显示的信息
+(require 'init-c)
 
 
