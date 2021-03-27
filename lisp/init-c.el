@@ -16,7 +16,6 @@
 
 (defun set-c-key ()
   "Set key map in 'c-mode'."
-  (message "Press F9 to compile and run.")
   ;; (define-key c-mode-map (kbd "<f9>") 'c-quick-compile))
   (define-key c-mode-map (kbd "C-c C-c") 'c-quick-compile))
 
