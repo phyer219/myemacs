@@ -8,10 +8,9 @@
 ;;; Code:
 
 (defun c-quick-compile ()
-  "A quick compile funciton for c."
+  "在目录中运行 make 命令, 需要提前写好 makefile."
   (interactive)
-  (compile (concat
-	    "gcc " (buffer-name (current-buffer)) " -o a.out && ./a.out")))
+  (compile "make"))
 
 
 (defun set-c-key ()
