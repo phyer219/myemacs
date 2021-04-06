@@ -31,4 +31,14 @@
 (require-package 'elpy)
 (elpy-enable)
 
+;; auto docstring
+;; https://github.com/joaotavora/yasnippet
+;; 模板来自 http://tiborsimko.org/emacs-epydoc-snippets.html
+;; 存储于~/.emacs.d/snippets/python-mode (这样会在 python-mode 下加载这个
+;; snippet)
+;; elpy 也已经调用了 yasnippet 了: https://elpy.readthedocs.io/en/latest/ide.html
+(require-package 'yasnippet)
+;; (yas-load-directory "~/.emacs.d/snippets")
+(add-hook 'python-mode-hook #'yas-minor-mode-on)
+
 (provide 'init-python)
