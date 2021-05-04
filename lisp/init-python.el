@@ -1,4 +1,9 @@
 ;;; python 的相关插件和设置
+;;; code:
+
+;; 折叠模式
+;; https://stackoverflow.com/questions/12763566/how-to-permanently-enable-the-hs-minor-mode-in-emacs
+(add-hook 'python-mode-hook #'hs-minor-mode)
 
 ;; lsp 的 python 服务
 (require-package 'use-package)
@@ -41,3 +46,4 @@
 (add-hook 'python-mode-hook #'yas-minor-mode-on)
 
 (provide 'init-python)
+;;; init-python.el ends here
